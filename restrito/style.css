@@ -1,0 +1,107 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-image: linear-gradient(rgb(39, 168, 0),rgb(173, 173, 173));
+    height: 740px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagemPequena{
+    width: 70px;
+    border-radius: 50%;
+    background-size: cover;
+}
+#imagem{
+    width: 300px;
+    height: 200px;
+}
+.tabela{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.pesquisa{
+    display: flex;
+    justify-content: center;
+}
+.pesquisa button{
+    margin-left: 10px;
+}
+.pesquisa input,.pesquisa button{
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+}
+.inicio{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    color: aliceblue;
+}
+.inicio h1,.inicio h4{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.inicio p{
+    margin-bottom: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    padding: 10px;
+    width: 40%;
+    margin-top: 10px;
+}
+.buttons button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.secao_form{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-image: linear-gradient(rgba(0, 255, 21, 0.479),rgb(5, 54, 0));
+    box-shadow: 5px 5px 5px 5px white;
+}
+.secao_form h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+.formulario input{
+    margin-bottom: 20px;
+}
+.formulario button{
+    background-color: aquamarine;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    transition: 0.7s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.formulario button:hover{
+    background-color: rgb(0, 255, 170);
+    color: white;
+}
+.formulario input,.formulario button{
+    padding: 10px;
+    text-align: center;
+    outline: none;
+}
